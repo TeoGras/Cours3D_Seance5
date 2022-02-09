@@ -1,0 +1,1391 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.25f1 (9b9180224418) revision 10195328'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19043) 64bit Core' Language: 'fr' Physical Memory: 8067 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.3.25f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/darty/Cours3D_Séance5
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+57866
+Successfully changed project path to: C:/Users/darty/Cours3D_Séance5
+C:/Users/darty/Cours3D_Séance5
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 178.44 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.25f1 (9b9180224418)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.25f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/darty/Cours3D_Séance5/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: NVIDIA GeForce MX130 (ID=0x174d)
+    Vendor:   
+    VRAM:     2010 MB
+    Driver:   30.0.14.9649
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.25f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.25f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.25f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56152
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.25f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.25f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.008266 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 130.56 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.908 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1909ms)
+		BeginReloadAssembly (162ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (1540ms)
+			LoadAssemblies (158ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (487ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (114ms)
+			SetupLoadedEditorAssemblies (525ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (22ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (131ms)
+				BeforeProcessingInitializeOnLoad (48ms)
+				ProcessInitializeOnLoadAttributes (257ms)
+				ProcessInitializeOnLoadMethodAttributes (66ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.011653 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.42 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.365 seconds
+Domain Reload Profiling:
+	ReloadAssembly (3368ms)
+		BeginReloadAssembly (617ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (19ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (48ms)
+		EndReloadAssembly (2504ms)
+			LoadAssemblies (332ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (999ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (117ms)
+			SetupLoadedEditorAssemblies (751ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (11ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (199ms)
+				ProcessInitializeOnLoadAttributes (494ms)
+				ProcessInitializeOnLoadMethodAttributes (22ms)
+				AfterProcessingInitializeOnLoad (23ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (16ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.14 seconds
+Refreshing native plugins compatible for Editor in 0.45 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1518 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 69.8 MB.
+System memory in use after: 69.9 MB.
+
+Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 1951.
+Total: 3.850600 ms (FindLiveObjects: 0.164800 ms CreateObjectMapping: 0.061400 ms MarkObjects: 3.535200 ms  DeleteObjects: 0.087900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/Resources/Miki
+  artifactKey: Guid(316cb58c4ef44c24a9038563fa0a244d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Miki using Guid(316cb58c4ef44c24a9038563fa0a244d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ed46274060b2cb0c51565f748874c21') in 0.011031 seconds 
+  Import took 0.018144 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.057663 seconds.
+  path: Assets/Resources/Background
+  artifactKey: Guid(130e7fb5edf3f2a40b751481720c7282) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Background using Guid(130e7fb5edf3f2a40b751481720c7282) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90e3b8895afc4d0b7581c34bcadb6dab') in 0.004344 seconds 
+  Import took 0.014932 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 208.058420 seconds.
+  path: Assets/Resources/Background/OYF5W6FZ20.png
+  artifactKey: Guid(e602f62199129654b867eaecc73110c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Background/OYF5W6FZ20.png using Guid(e602f62199129654b867eaecc73110c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f46b84e336430726946ad3d9ec89d06') in 0.423968 seconds 
+  Import took 0.434720 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 36.114208 seconds.
+  path: Assets/Resources/Background/11JGOISGC7.png
+  artifactKey: Guid(5a50387a1a5d46d42ad61eda2cc8e1ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Background/11JGOISGC7.png using Guid(5a50387a1a5d46d42ad61eda2cc8e1ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '017b681388fd5e29f97f4efc074664eb') in 0.021503 seconds 
+  Import took 0.034173 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 152.372630 seconds.
+  path: Assets/Resources/Background/ZNBLI64W7N.png
+  artifactKey: Guid(8c3d5b26c6426cb4595b65c4e47ca7bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Background/ZNBLI64W7N.png using Guid(8c3d5b26c6426cb4595b65c4e47ca7bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1b6d48cb7cf826901f7e492f132593a') in 0.038041 seconds 
+  Import took 0.050051 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 20.272437 seconds.
+  path: Assets/Resources/Background/OYF5W6FZ20.png
+  artifactKey: Guid(e602f62199129654b867eaecc73110c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Background/OYF5W6FZ20.png using Guid(e602f62199129654b867eaecc73110c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd77fec4144a6bd39e91ab17b603090f3') in 0.254798 seconds 
+  Import took 0.261025 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000405 seconds.
+  path: Assets/Resources/Background/ZNBLI64W7N.png
+  artifactKey: Guid(8c3d5b26c6426cb4595b65c4e47ca7bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Background/ZNBLI64W7N.png using Guid(8c3d5b26c6426cb4595b65c4e47ca7bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f22df770aa2640106c4f248fb5d1057b') in 0.081776 seconds 
+  Import took 0.090363 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000344 seconds.
+  path: Assets/Resources/Background/11JGOISGC7.png
+  artifactKey: Guid(5a50387a1a5d46d42ad61eda2cc8e1ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Background/11JGOISGC7.png using Guid(5a50387a1a5d46d42ad61eda2cc8e1ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fba862924e935ef90a690d13b9037bd2') in 0.023585 seconds 
+  Import took 0.029935 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.438127 seconds.
+  path: Assets/Resources/Miki/Miki Swimsuit
+  artifactKey: Guid(9cad66da596b1fa4181f3d0f50c985de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Miki/Miki Swimsuit using Guid(9cad66da596b1fa4181f3d0f50c985de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92ac233fb017be0fed40f2a396d788e2') in 0.004864 seconds 
+  Import took 0.009216 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.070757 seconds.
+  path: Assets/Resources/Miki/Miki Swimsuit/Miki_A_Swimsuit_Closed_Frown.png
+  artifactKey: Guid(53ba5516e0039ff4cb14d5c77c71908d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Miki/Miki Swimsuit/Miki_A_Swimsuit_Closed_Frown.png using Guid(53ba5516e0039ff4cb14d5c77c71908d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc48f7ef41d6932fcf1b7394eefe7781') in 0.044762 seconds 
+  Import took 0.052276 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000619 seconds.
+  path: Assets/Resources/Miki/Miki Swimsuit/Miki_A_Swimsuit_Smile_Blush.png
+  artifactKey: Guid(5ecf6bd5a0366034eb31884d5d3bdc46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Miki/Miki Swimsuit/Miki_A_Swimsuit_Smile_Blush.png using Guid(5ecf6bd5a0366034eb31884d5d3bdc46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '777e4efa30642f80cd113f35f5a2fd60') in 0.029465 seconds 
+  Import took 0.036478 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000418 seconds.
+  path: Assets/Resources/Miki/Miki Swimsuit/Miki_A_Swimsuit_Closed_Open_Blush.png
+  artifactKey: Guid(8847bf02fca17124aad13680c676e423) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Miki/Miki Swimsuit/Miki_A_Swimsuit_Closed_Open_Blush.png using Guid(8847bf02fca17124aad13680c676e423) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92e242b0b5060a66dfbab3584f27c590') in 0.030583 seconds 
+  Import took 0.035315 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000620 seconds.
+  path: Assets/Resources/Miki/Miki Swimsuit/Miki_A_Swimsuit_Open_Blush.png
+  artifactKey: Guid(39cd78928298ed3448d366291cc01be5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Miki/Miki Swimsuit/Miki_A_Swimsuit_Open_Blush.png using Guid(39cd78928298ed3448d366291cc01be5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fff45aaaa63b757d194f4d517afecb75') in 0.030034 seconds 
+  Import took 0.034950 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000432 seconds.
+  path: Assets/Resources/Miki/Miki Swimsuit/Miki_A_Swimsuit_Closed_Frown_Blush.png
+  artifactKey: Guid(441d6b6c1d3e38248ae4bc043d963660) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Miki/Miki Swimsuit/Miki_A_Swimsuit_Closed_Frown_Blush.png using Guid(441d6b6c1d3e38248ae4bc043d963660) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2659029a38cab0881365f4061848ae77') in 0.029316 seconds 
+  Import took 0.033592 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000461 seconds.
+  path: Assets/Resources/Miki/Miki Swimsuit/Miki_A_Swimsuit_Closed_Open.png
+  artifactKey: Guid(d7c35ae5e5c3a1f48bb9673eda6ebc77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Miki/Miki Swimsuit/Miki_A_Swimsuit_Closed_Open.png using Guid(d7c35ae5e5c3a1f48bb9673eda6ebc77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '520f3f761da6476c9a459cc3b50215e3') in 0.026883 seconds 
+  Import took 0.032676 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000635 seconds.
+  path: Assets/Resources/Miki/Miki Swimsuit/Miki_A_Swimsuit_Closed_Smile_Blush.png
+  artifactKey: Guid(25230677b3a80ca4496f2382b2e6fb24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Miki/Miki Swimsuit/Miki_A_Swimsuit_Closed_Smile_Blush.png using Guid(25230677b3a80ca4496f2382b2e6fb24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '798f8d369727e5479ccff97c6ab301f0') in 0.029175 seconds 
+  Import took 0.034787 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000414 seconds.
+  path: Assets/Resources/Miki/Miki Swimsuit/Miki_A_Swimsuit_Frown_Blush.png
+  artifactKey: Guid(36fc445d1b278f249a27af71123523d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Miki/Miki Swimsuit/Miki_A_Swimsuit_Frown_Blush.png using Guid(36fc445d1b278f249a27af71123523d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b006c6250ca7184a528019521968296c') in 0.026841 seconds 
+  Import took 0.031992 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000518 seconds.
+  path: Assets/Resources/Miki/Miki Swimsuit/Miki_A_Swimsuit_Closed_Smile.png
+  artifactKey: Guid(c0c001e4f63273f4393c4c56decd94fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Miki/Miki Swimsuit/Miki_A_Swimsuit_Closed_Smile.png using Guid(c0c001e4f63273f4393c4c56decd94fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12c0f1bf3592cd4cf942c57d71dbb81b') in 0.031254 seconds 
+  Import took 0.038473 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000531 seconds.
+  path: Assets/Resources/Miki/Miki Swimsuit/Miki_A_Swimsuit_Frown.png
+  artifactKey: Guid(100d3cffcda0f17478168fdf7ad34ec5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Miki/Miki Swimsuit/Miki_A_Swimsuit_Frown.png using Guid(100d3cffcda0f17478168fdf7ad34ec5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ef7acb3e96ea621b08a439edfc366d9') in 0.037735 seconds 
+  Import took 0.044805 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000438 seconds.
+  path: Assets/Resources/Miki/Miki Swimsuit/Miki_A_Swimsuit_Smile.png
+  artifactKey: Guid(1d07c9b15e6785e4ea7bee4a681cc8ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Miki/Miki Swimsuit/Miki_A_Swimsuit_Smile.png using Guid(1d07c9b15e6785e4ea7bee4a681cc8ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '798b94fd97834174301ec7aa41572958') in 0.037690 seconds 
+  Import took 0.042924 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000581 seconds.
+  path: Assets/Resources/Miki/Miki Swimsuit/Miki_A_Swimsuit_Open.png
+  artifactKey: Guid(63dfa689ce5038644a7884c5a259d22a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Miki/Miki Swimsuit/Miki_A_Swimsuit_Open.png using Guid(63dfa689ce5038644a7884c5a259d22a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1cb88c0f41ea1eb79d7c28305c90d2a') in 0.028753 seconds 
+  Import took 0.034547 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 32.549292 seconds.
+  path: Assets/Resources/Miki/Miki Swimsuit/Miki_A_Swimsuit_Smile_Blush.png
+  artifactKey: Guid(5ecf6bd5a0366034eb31884d5d3bdc46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Miki/Miki Swimsuit/Miki_A_Swimsuit_Smile_Blush.png using Guid(5ecf6bd5a0366034eb31884d5d3bdc46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a6cb2546c2630aa81ff929392fa669f') in 0.049863 seconds 
+  Import took 0.055462 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000415 seconds.
+  path: Assets/Resources/Miki/Miki Swimsuit/Miki_A_Swimsuit_Closed_Open_Blush.png
+  artifactKey: Guid(8847bf02fca17124aad13680c676e423) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Miki/Miki Swimsuit/Miki_A_Swimsuit_Closed_Open_Blush.png using Guid(8847bf02fca17124aad13680c676e423) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2784f801410f7aa8dcecca2dfbba9634') in 0.027172 seconds 
+  Import took 0.034219 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000602 seconds.
+  path: Assets/Resources/Miki/Miki Swimsuit/Miki_A_Swimsuit_Closed_Frown.png
+  artifactKey: Guid(53ba5516e0039ff4cb14d5c77c71908d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Miki/Miki Swimsuit/Miki_A_Swimsuit_Closed_Frown.png using Guid(53ba5516e0039ff4cb14d5c77c71908d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b759e10c323db427d0c4bade390e4ec4') in 0.038944 seconds 
+  Import took 0.044982 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000753 seconds.
+  path: Assets/Resources/Miki/Miki Swimsuit/Miki_A_Swimsuit_Open_Blush.png
+  artifactKey: Guid(39cd78928298ed3448d366291cc01be5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Miki/Miki Swimsuit/Miki_A_Swimsuit_Open_Blush.png using Guid(39cd78928298ed3448d366291cc01be5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7fb6fac0b6388604b01e904310f7bbf0') in 0.024470 seconds 
+  Import took 0.030011 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000474 seconds.
+  path: Assets/Resources/Miki/Miki Swimsuit/Miki_A_Swimsuit_Closed_Frown_Blush.png
+  artifactKey: Guid(441d6b6c1d3e38248ae4bc043d963660) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Miki/Miki Swimsuit/Miki_A_Swimsuit_Closed_Frown_Blush.png using Guid(441d6b6c1d3e38248ae4bc043d963660) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03150add5b32662abf971c8c4064d1a9') in 0.026912 seconds 
+  Import took 0.037331 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000617 seconds.
+  path: Assets/Resources/Miki/Miki Swimsuit/Miki_A_Swimsuit_Closed_Open.png
+  artifactKey: Guid(d7c35ae5e5c3a1f48bb9673eda6ebc77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Miki/Miki Swimsuit/Miki_A_Swimsuit_Closed_Open.png using Guid(d7c35ae5e5c3a1f48bb9673eda6ebc77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3520ac48731dc4480e523a03a62e6286') in 0.037304 seconds 
+  Import took 0.043347 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000461 seconds.
+  path: Assets/Resources/Miki/Miki Swimsuit/Miki_A_Swimsuit_Closed_Smile_Blush.png
+  artifactKey: Guid(25230677b3a80ca4496f2382b2e6fb24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Miki/Miki Swimsuit/Miki_A_Swimsuit_Closed_Smile_Blush.png using Guid(25230677b3a80ca4496f2382b2e6fb24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '397480ccd65a64880f3f0a26484f35f0') in 0.034337 seconds 
+  Import took 0.041538 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000492 seconds.
+  path: Assets/Resources/Miki/Miki Swimsuit/Miki_A_Swimsuit_Frown_Blush.png
+  artifactKey: Guid(36fc445d1b278f249a27af71123523d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Miki/Miki Swimsuit/Miki_A_Swimsuit_Frown_Blush.png using Guid(36fc445d1b278f249a27af71123523d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '722f7b0090482fda8611d321790a357f') in 0.033913 seconds 
+  Import took 0.046255 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000449 seconds.
+  path: Assets/Resources/Miki/Miki Swimsuit/Miki_A_Swimsuit_Closed_Smile.png
+  artifactKey: Guid(c0c001e4f63273f4393c4c56decd94fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Miki/Miki Swimsuit/Miki_A_Swimsuit_Closed_Smile.png using Guid(c0c001e4f63273f4393c4c56decd94fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62d7688a79ab931938b9c7b64ff4c7ab') in 0.039623 seconds 
+  Import took 0.083121 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000373 seconds.
+  path: Assets/Resources/Miki/Miki Swimsuit/Miki_A_Swimsuit_Frown.png
+  artifactKey: Guid(100d3cffcda0f17478168fdf7ad34ec5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Miki/Miki Swimsuit/Miki_A_Swimsuit_Frown.png using Guid(100d3cffcda0f17478168fdf7ad34ec5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39d0f15434c5e9d4aa784682d5080c6f') in 0.022121 seconds 
+  Import took 0.028017 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000784 seconds.
+  path: Assets/Resources/Miki/Miki Swimsuit/Miki_A_Swimsuit_Smile.png
+  artifactKey: Guid(1d07c9b15e6785e4ea7bee4a681cc8ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Miki/Miki Swimsuit/Miki_A_Swimsuit_Smile.png using Guid(1d07c9b15e6785e4ea7bee4a681cc8ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ac13e08ad48f045baa1a60a08665c49') in 0.020466 seconds 
+  Import took 0.025979 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000375 seconds.
+  path: Assets/Resources/Miki/Miki Swimsuit/Miki_A_Swimsuit_Open.png
+  artifactKey: Guid(63dfa689ce5038644a7884c5a259d22a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Miki/Miki Swimsuit/Miki_A_Swimsuit_Open.png using Guid(63dfa689ce5038644a7884c5a259d22a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0641703646be8a86d0f8a09381242213') in 0.025764 seconds 
+  Import took 0.029881 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 108.636499 seconds.
+  path: Assets/Resources/Background/UN72KZ888Y.png
+  artifactKey: Guid(22c3d5431e09fc041a633fe174017dae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Background/UN72KZ888Y.png using Guid(22c3d5431e09fc041a633fe174017dae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bacf21a4522887a61e0627e26dceeb18') in 0.044978 seconds 
+  Import took 0.053173 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.858238 seconds.
+  path: Assets/Resources/Background/UN72KZ888Y.png
+  artifactKey: Guid(22c3d5431e09fc041a633fe174017dae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Background/UN72KZ888Y.png using Guid(22c3d5431e09fc041a633fe174017dae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1c0c584263e66d3eff2fc31015ceeb5') in 0.055184 seconds 
+  Import took 0.059917 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 164.010048 seconds.
+  path: Assets/Resources/Miki/Miki Yukata
+  artifactKey: Guid(bea062be1d3847949b016fd1e4d320e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Miki/Miki Yukata using Guid(bea062be1d3847949b016fd1e4d320e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '413d413b036b18301fc4421e377de130') in 0.006586 seconds 
+  Import took 0.012204 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 104.720066 seconds.
+  path: Assets/Resources/Miki/Miki Winter Coat
+  artifactKey: Guid(1932c4c94b9a61a40819dd0b027ff833) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Miki/Miki Winter Coat using Guid(1932c4c94b9a61a40819dd0b027ff833) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3830a81af7aa3b409dc90ca579686b94') in 0.005074 seconds 
+  Import took 0.029937 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.053100 seconds.
+  path: Assets/Resources/Miki/Miki Winter Coat/Miki_A_Coat_Closed_Frown.png
+  artifactKey: Guid(28b2614002fcc0d4eb543c8c84599a2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Miki/Miki Winter Coat/Miki_A_Coat_Closed_Frown.png using Guid(28b2614002fcc0d4eb543c8c84599a2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e46f0acb4f9f33b97ffcda2bfd3ddfae') in 0.043776 seconds 
+  Import took 0.051769 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000637 seconds.
+  path: Assets/Resources/Miki/Miki Winter Coat/Miki_A_Coat_Closed_Open_Blush.png
+  artifactKey: Guid(18cb5e8cf7b48b34cb3d2225aff6e5b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Miki/Miki Winter Coat/Miki_A_Coat_Closed_Open_Blush.png using Guid(18cb5e8cf7b48b34cb3d2225aff6e5b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b375a626e4c397acedabcb74232d6f42') in 0.032148 seconds 
+  Import took 0.037981 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000429 seconds.
+  path: Assets/Resources/Miki/Miki Winter Coat/Miki_A_Coat_Closed_Smile_Blush.png
+  artifactKey: Guid(835e8b008875ba243a016feb0b780ae0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Miki/Miki Winter Coat/Miki_A_Coat_Closed_Smile_Blush.png using Guid(835e8b008875ba243a016feb0b780ae0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f3828561746541e41b976dfd9072ac3') in 0.028100 seconds 
+  Import took 0.032959 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000623 seconds.
+  path: Assets/Resources/Miki/Miki Winter Coat/Miki_A_Coat_Open.png
+  artifactKey: Guid(19e7d4acfc6d6e74b80e99d804328a52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Miki/Miki Winter Coat/Miki_A_Coat_Open.png using Guid(19e7d4acfc6d6e74b80e99d804328a52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2235bb6062ce61a5423c1d53fc822540') in 0.037378 seconds 
+  Import took 0.043422 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000620 seconds.
+  path: Assets/Resources/Miki/Miki Winter Coat/Miki_A_Coat_Frown_Blush.png
+  artifactKey: Guid(ef009793f77e1a04caaeae1c9f14c741) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Miki/Miki Winter Coat/Miki_A_Coat_Frown_Blush.png using Guid(ef009793f77e1a04caaeae1c9f14c741) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '629de6f72c79bb95b8846858db3590bb') in 0.033361 seconds 
+  Import took 0.039119 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000492 seconds.
+  path: Assets/Resources/Miki/Miki Winter Coat/Miki_A_Coat_Closed_Open.png
+  artifactKey: Guid(80055106ff362964ca86f8e758a40b0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Miki/Miki Winter Coat/Miki_A_Coat_Closed_Open.png using Guid(80055106ff362964ca86f8e758a40b0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80b79a7fba23b93ce46ad1891278435e') in 0.025776 seconds 
+  Import took 0.031210 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000420 seconds.
+  path: Assets/Resources/Miki/Miki Winter Coat/Miki_A_Coat_Frown.png
+  artifactKey: Guid(e9ef87b085205ea4ba1d6ed83c5b8d63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Miki/Miki Winter Coat/Miki_A_Coat_Frown.png using Guid(e9ef87b085205ea4ba1d6ed83c5b8d63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a773f477a4caa1e6a617bedc7b0e937b') in 0.028775 seconds 
+  Import took 0.034199 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000435 seconds.
+  path: Assets/Resources/Miki/Miki Winter Coat/Miki_A_Coat_Open_Blush.png
+  artifactKey: Guid(d4718d800c0cf024c85d3a196216df51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Miki/Miki Winter Coat/Miki_A_Coat_Open_Blush.png using Guid(d4718d800c0cf024c85d3a196216df51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da346f1479ac6caa63b78d46367afe5b') in 0.027545 seconds 
+  Import took 0.033390 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000475 seconds.
+  path: Assets/Resources/Miki/Miki Winter Coat/Miki_A_Coat_Smile.png
+  artifactKey: Guid(6624c408a8a209346b0b58641b5f8db6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Miki/Miki Winter Coat/Miki_A_Coat_Smile.png using Guid(6624c408a8a209346b0b58641b5f8db6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0acf26834a3136bd7ba1c9bbcf370fc') in 0.033178 seconds 
+  Import took 0.039421 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000812 seconds.
+  path: Assets/Resources/Miki/Miki Winter Coat/Miki_A_Coat_Smile_Blush.png
+  artifactKey: Guid(95e6ec69a5b4f91409f9dbe68445adf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Miki/Miki Winter Coat/Miki_A_Coat_Smile_Blush.png using Guid(95e6ec69a5b4f91409f9dbe68445adf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a2e1f5bdbbe5324cffaf29534a0147f') in 0.034506 seconds 
+  Import took 0.039449 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000443 seconds.
+  path: Assets/Resources/Miki/Miki Winter Coat/Miki_A_Coat_Closed_Frown_Blush.png
+  artifactKey: Guid(5879d7a02f79962478187a31026577fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Miki/Miki Winter Coat/Miki_A_Coat_Closed_Frown_Blush.png using Guid(5879d7a02f79962478187a31026577fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc517bd3c6816c87b4e48b96b861b019') in 0.030075 seconds 
+  Import took 0.035707 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001297 seconds.
+  path: Assets/Resources/Miki/Miki Winter Coat/Miki_A_Coat_Closed_Smile.png
+  artifactKey: Guid(867968feaab4fc64a8f376cc02b803bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Miki/Miki Winter Coat/Miki_A_Coat_Closed_Smile.png using Guid(867968feaab4fc64a8f376cc02b803bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce3faf9ad699f4624034a6ebe0f6a03c') in 0.030050 seconds 
+  Import took 0.035136 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.190146 seconds.
+  path: Assets/Resources/Miki/Miki Winter Coat/Miki_A_Coat_Closed_Frown 1.png
+  artifactKey: Guid(732b22869607ee44fb903d2d1eceada1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Miki/Miki Winter Coat/Miki_A_Coat_Closed_Frown 1.png using Guid(732b22869607ee44fb903d2d1eceada1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '302bc67308d156410fa9397da96c53ae') in 0.026710 seconds 
+  Import took 0.032110 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000508 seconds.
+  path: Assets/Resources/Miki/Miki Winter Coat/Miki_A_Coat_Closed_Smile_Blush 1.png
+  artifactKey: Guid(245282cded8e86946bafb9a040a42421) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Miki/Miki Winter Coat/Miki_A_Coat_Closed_Smile_Blush 1.png using Guid(245282cded8e86946bafb9a040a42421) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd53de24285167f924ec91c335f7a5dc4') in 0.020998 seconds 
+  Import took 0.028101 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000536 seconds.
+  path: Assets/Resources/Miki/Miki Winter Coat/Miki_A_Coat_Closed_Open 1.png
+  artifactKey: Guid(fce8cb66fd1c9b74b8c0f81356cb4703) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Miki/Miki Winter Coat/Miki_A_Coat_Closed_Open 1.png using Guid(fce8cb66fd1c9b74b8c0f81356cb4703) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a88445a7f0595eac5e502101bdbdd6ca') in 0.024114 seconds 
+  Import took 0.033573 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000613 seconds.
+  path: Assets/Resources/Miki/Miki Winter Coat/Miki_A_Coat_Frown 1.png
+  artifactKey: Guid(7ad9fda4ef95f654187d75e212002c5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Miki/Miki Winter Coat/Miki_A_Coat_Frown 1.png using Guid(7ad9fda4ef95f654187d75e212002c5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c92b065fee346a190a1803ed54597a87') in 0.021781 seconds 
+  Import took 0.029346 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001031 seconds.
+  path: Assets/Resources/Miki/Miki Winter Coat/Miki_A_Coat_Open 1.png
+  artifactKey: Guid(ba4d0e97128a244479e7b481b57ac626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Miki/Miki Winter Coat/Miki_A_Coat_Open 1.png using Guid(ba4d0e97128a244479e7b481b57ac626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d994bb9212448e3ddbc0c1a5edb40b2') in 0.022827 seconds 
+  Import took 0.028335 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000814 seconds.
+  path: Assets/Resources/Miki/Miki Winter Coat/Miki_A_Coat_Closed_Open_Blush 1.png
+  artifactKey: Guid(534cc20c04e8546469fced12ee6296a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Miki/Miki Winter Coat/Miki_A_Coat_Closed_Open_Blush 1.png using Guid(534cc20c04e8546469fced12ee6296a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03c19da4f97f77401737f912d5549cb1') in 0.039338 seconds 
+  Import took 0.047486 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000426 seconds.
+  path: Assets/Resources/Miki/Miki Winter Coat/Miki_A_Coat_Closed_Smile 1.png
+  artifactKey: Guid(259cebb2f2e9021498fa1d921c1804c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Miki/Miki Winter Coat/Miki_A_Coat_Closed_Smile 1.png using Guid(259cebb2f2e9021498fa1d921c1804c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '137257a0b3fe471e905acaa17cc9621d') in 0.025450 seconds 
+  Import took 0.031548 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000367 seconds.
+  path: Assets/Resources/Miki/Miki Winter Coat/Miki_A_Coat_Frown_Blush 1.png
+  artifactKey: Guid(e1257336aff3336448b159b8f0b0b706) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Miki/Miki Winter Coat/Miki_A_Coat_Frown_Blush 1.png using Guid(e1257336aff3336448b159b8f0b0b706) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8219f6d03558433a17977933a117054d') in 0.014784 seconds 
+  Import took 0.020128 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000893 seconds.
+  path: Assets/Resources/Miki/Miki Winter Coat/Miki_A_Coat_Closed_Frown_Blush 1.png
+  artifactKey: Guid(96e732b712623184ab2f6559c97531d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Miki/Miki Winter Coat/Miki_A_Coat_Closed_Frown_Blush 1.png using Guid(96e732b712623184ab2f6559c97531d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f5f11b63d27703b03a21d7bda655014') in 0.018189 seconds 
+  Import took 0.023974 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 82.358755 seconds.
+  path: Assets/Resources/Miki/Miki Yukata/Miki_A_Yukata_Closed_Frown.png
+  artifactKey: Guid(81c0569b06bdc8e4e9cbbb2a3472a84f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Miki/Miki Yukata/Miki_A_Yukata_Closed_Frown.png using Guid(81c0569b06bdc8e4e9cbbb2a3472a84f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5bc0995d8224dbf2dc219feaa6060d79') in 0.057996 seconds 
+  Import took 0.065097 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000711 seconds.
+  path: Assets/Resources/Miki/Miki Yukata/Miki_A_Yukata_Open.png
+  artifactKey: Guid(64eff859af6c01a429586a6a02a004ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Miki/Miki Yukata/Miki_A_Yukata_Open.png using Guid(64eff859af6c01a429586a6a02a004ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c55008a3b970b37472d3cf87bb448bba') in 0.025761 seconds 
+  Import took 0.030706 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000401 seconds.
+  path: Assets/Resources/Miki/Miki Yukata/Miki_A_Yukata_Smile_Blush.png
+  artifactKey: Guid(06aed3990c9c56b459d13935e26e5e05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Miki/Miki Yukata/Miki_A_Yukata_Smile_Blush.png using Guid(06aed3990c9c56b459d13935e26e5e05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54de4ae090c5b5987bd9b5f28e870359') in 0.035196 seconds 
+  Import took 0.041603 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000713 seconds.
+  path: Assets/Resources/Miki/Miki Yukata/Miki_A_Yukata_Smile.png
+  artifactKey: Guid(3f0e1c1993a983c4db6af8e013513ef3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Miki/Miki Yukata/Miki_A_Yukata_Smile.png using Guid(3f0e1c1993a983c4db6af8e013513ef3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '771df6294ea858853160af404085d52a') in 0.037054 seconds 
+  Import took 0.055217 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001031 seconds.
+  path: Assets/Resources/Miki/Miki Yukata/Miki_A_Yukata_Closed_Smile.png
+  artifactKey: Guid(71a54545edc33cd4282c19e354545acb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Miki/Miki Yukata/Miki_A_Yukata_Closed_Smile.png using Guid(71a54545edc33cd4282c19e354545acb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '242356bb122163aa7eb84cf55ed1b3e1') in 0.035267 seconds 
+  Import took 0.044582 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000421 seconds.
+  path: Assets/Resources/Miki/Miki Yukata/Miki_A_Yukata_Closed_Frown_Blush.png
+  artifactKey: Guid(c2eaa08c7b0dc3747a552c1f2e753cd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Miki/Miki Yukata/Miki_A_Yukata_Closed_Frown_Blush.png using Guid(c2eaa08c7b0dc3747a552c1f2e753cd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c210ddcab2048a01b3f34d3a9e22352') in 0.029512 seconds 
+  Import took 0.035545 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000366 seconds.
+  path: Assets/Resources/Miki/Miki Yukata/Miki_A_Yukata_Closed_Smile_Blush.png
+  artifactKey: Guid(5bdc58193b9f56840a10a0a2c114c8f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Miki/Miki Yukata/Miki_A_Yukata_Closed_Smile_Blush.png using Guid(5bdc58193b9f56840a10a0a2c114c8f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e8aa91961a2cb983f362aafc33db32b') in 0.026223 seconds 
+  Import took 0.030850 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000357 seconds.
+  path: Assets/Resources/Miki/Miki Yukata/Miki_A_Yukata_Closed_Open.png
+  artifactKey: Guid(04759b525b710ab4bbb23609bee05ee6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Miki/Miki Yukata/Miki_A_Yukata_Closed_Open.png using Guid(04759b525b710ab4bbb23609bee05ee6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44edf74decedaa180f28278b58b3a9ed') in 0.084408 seconds 
+  Import took 0.090283 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000698 seconds.
+  path: Assets/Resources/Miki/Miki Yukata/Miki_A_Yukata_Frown.png
+  artifactKey: Guid(8e9ad60d503e3bc4282c60b476dcfac8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Miki/Miki Yukata/Miki_A_Yukata_Frown.png using Guid(8e9ad60d503e3bc4282c60b476dcfac8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec927b05a81d092a5bd0f42e8ac04aee') in 0.035629 seconds 
+  Import took 0.043344 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000413 seconds.
+  path: Assets/Resources/Miki/Miki Yukata/Miki_A_Yukata_Closed_Open_Blush.png
+  artifactKey: Guid(f8a14427df43f344a83b420f64a033e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Miki/Miki Yukata/Miki_A_Yukata_Closed_Open_Blush.png using Guid(f8a14427df43f344a83b420f64a033e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '512986e4c4bb465ccfdbe6599aa3beed') in 0.037234 seconds 
+  Import took 0.047484 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000761 seconds.
+  path: Assets/Resources/Miki/Miki Yukata/Miki_A_Yukata_Open_Blush.png
+  artifactKey: Guid(c5a908ac92292d4408dff70f0623e4ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Miki/Miki Yukata/Miki_A_Yukata_Open_Blush.png using Guid(c5a908ac92292d4408dff70f0623e4ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3236f077f25cb6619a3277d4b7e22b64') in 0.046371 seconds 
+  Import took 0.056553 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000362 seconds.
+  path: Assets/Resources/Miki/Miki Yukata/Miki_A_Yukata_Frown_Blush.png
+  artifactKey: Guid(df5bd6af657559e48aa5ad16712ba43c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Miki/Miki Yukata/Miki_A_Yukata_Frown_Blush.png using Guid(df5bd6af657559e48aa5ad16712ba43c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e77dfd5eb9082d0cdf26c3cbbf196b76') in 0.035322 seconds 
+  Import took 0.042226 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 32.197142 seconds.
+  path: Assets/Resources/Miki/Miki Yukata/Miki_A_Yukata_Closed_Frown_Blush.png
+  artifactKey: Guid(c2eaa08c7b0dc3747a552c1f2e753cd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Miki/Miki Yukata/Miki_A_Yukata_Closed_Frown_Blush.png using Guid(c2eaa08c7b0dc3747a552c1f2e753cd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4924ab1cdec5b5132eabfc678898ad35') in 0.047908 seconds 
+  Import took 0.055325 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000722 seconds.
+  path: Assets/Resources/Miki/Miki Yukata/Miki_A_Yukata_Open.png
+  artifactKey: Guid(64eff859af6c01a429586a6a02a004ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Miki/Miki Yukata/Miki_A_Yukata_Open.png using Guid(64eff859af6c01a429586a6a02a004ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38331b14047714283b6ec81e2b870e9a') in 0.028418 seconds 
+  Import took 0.033801 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000385 seconds.
+  path: Assets/Resources/Miki/Miki Yukata/Miki_A_Yukata_Smile_Blush.png
+  artifactKey: Guid(06aed3990c9c56b459d13935e26e5e05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Miki/Miki Yukata/Miki_A_Yukata_Smile_Blush.png using Guid(06aed3990c9c56b459d13935e26e5e05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ce607d5845bf843a9c38cab9880921e') in 0.024699 seconds 
+  Import took 0.030501 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000366 seconds.
+  path: Assets/Resources/Miki/Miki Yukata/Miki_A_Yukata_Closed_Frown.png
+  artifactKey: Guid(81c0569b06bdc8e4e9cbbb2a3472a84f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Miki/Miki Yukata/Miki_A_Yukata_Closed_Frown.png using Guid(81c0569b06bdc8e4e9cbbb2a3472a84f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a72cfea28d3cd932ea155e3653420099') in 0.052409 seconds 
+  Import took 0.059605 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000573 seconds.
+  path: Assets/Resources/Miki/Miki Yukata/Miki_A_Yukata_Smile.png
+  artifactKey: Guid(3f0e1c1993a983c4db6af8e013513ef3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Miki/Miki Yukata/Miki_A_Yukata_Smile.png using Guid(3f0e1c1993a983c4db6af8e013513ef3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59cb2e62abe07392664de5748c05cc08') in 0.046026 seconds 
+  Import took 0.056670 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000790 seconds.
+  path: Assets/Resources/Miki/Miki Yukata/Miki_A_Yukata_Closed_Smile.png
+  artifactKey: Guid(71a54545edc33cd4282c19e354545acb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Miki/Miki Yukata/Miki_A_Yukata_Closed_Smile.png using Guid(71a54545edc33cd4282c19e354545acb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '776b50ba860355f624345a250c4e4681') in 0.061221 seconds 
+  Import took 0.070187 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000657 seconds.
+  path: Assets/Resources/Miki/Miki Yukata/Miki_A_Yukata_Closed_Smile_Blush.png
+  artifactKey: Guid(5bdc58193b9f56840a10a0a2c114c8f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Miki/Miki Yukata/Miki_A_Yukata_Closed_Smile_Blush.png using Guid(5bdc58193b9f56840a10a0a2c114c8f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a39efb3525dfdc7297af52e3fd6e8871') in 0.061941 seconds 
+  Import took 0.069440 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000382 seconds.
+  path: Assets/Resources/Miki/Miki Yukata/Miki_A_Yukata_Closed_Open.png
+  artifactKey: Guid(04759b525b710ab4bbb23609bee05ee6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Miki/Miki Yukata/Miki_A_Yukata_Closed_Open.png using Guid(04759b525b710ab4bbb23609bee05ee6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32bcdbc54bca1eae5da2eabf73e06f8d') in 0.039165 seconds 
+  Import took 0.049290 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002245 seconds.
+  path: Assets/Resources/Miki/Miki Yukata/Miki_A_Yukata_Frown.png
+  artifactKey: Guid(8e9ad60d503e3bc4282c60b476dcfac8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Miki/Miki Yukata/Miki_A_Yukata_Frown.png using Guid(8e9ad60d503e3bc4282c60b476dcfac8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26242740114fbd775044e70aef6353ca') in 0.037767 seconds 
+  Import took 0.046916 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000356 seconds.
+  path: Assets/Resources/Miki/Miki Yukata/Miki_A_Yukata_Closed_Open_Blush.png
+  artifactKey: Guid(f8a14427df43f344a83b420f64a033e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Miki/Miki Yukata/Miki_A_Yukata_Closed_Open_Blush.png using Guid(f8a14427df43f344a83b420f64a033e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '212e4fdbcf118e8dd48faa8dca538543') in 0.033141 seconds 
+  Import took 0.039335 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000671 seconds.
+  path: Assets/Resources/Miki/Miki Yukata/Miki_A_Yukata_Open_Blush.png
+  artifactKey: Guid(c5a908ac92292d4408dff70f0623e4ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Miki/Miki Yukata/Miki_A_Yukata_Open_Blush.png using Guid(c5a908ac92292d4408dff70f0623e4ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4550baed029668eb4f9ec15264d4f1a') in 0.034702 seconds 
+  Import took 0.041111 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000498 seconds.
+  path: Assets/Resources/Miki/Miki Yukata/Miki_A_Yukata_Frown_Blush.png
+  artifactKey: Guid(df5bd6af657559e48aa5ad16712ba43c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Miki/Miki Yukata/Miki_A_Yukata_Frown_Blush.png using Guid(df5bd6af657559e48aa5ad16712ba43c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2af663263ad1672c801c47ca8c182184') in 0.035492 seconds 
+  Import took 0.043097 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 37.353692 seconds.
+  path: Assets/Resources/Miki/Miki Winter Coat/Miki_A_Coat_Open_Blush.png
+  artifactKey: Guid(d4718d800c0cf024c85d3a196216df51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Miki/Miki Winter Coat/Miki_A_Coat_Open_Blush.png using Guid(d4718d800c0cf024c85d3a196216df51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1873b3c9dd0d587846e8c8c7dc3aaf1') in 0.062817 seconds 
+  Import took 0.085575 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000803 seconds.
+  path: Assets/Resources/Miki/Miki Winter Coat/Miki_A_Coat_Closed_Open_Blush.png
+  artifactKey: Guid(18cb5e8cf7b48b34cb3d2225aff6e5b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Miki/Miki Winter Coat/Miki_A_Coat_Closed_Open_Blush.png using Guid(18cb5e8cf7b48b34cb3d2225aff6e5b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'deebde9da91a9486aa2bf3f3f4a0d010') in 0.082590 seconds 
+  Import took 0.090730 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000530 seconds.
+  path: Assets/Resources/Miki/Miki Winter Coat/Miki_A_Coat_Closed_Smile_Blush.png
+  artifactKey: Guid(835e8b008875ba243a016feb0b780ae0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Miki/Miki Winter Coat/Miki_A_Coat_Closed_Smile_Blush.png using Guid(835e8b008875ba243a016feb0b780ae0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb270aa17f64d23d53be5004b7df4664') in 0.076737 seconds 
+  Import took 0.091749 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000459 seconds.
+  path: Assets/Resources/Miki/Miki Winter Coat/Miki_A_Coat_Closed_Frown.png
+  artifactKey: Guid(28b2614002fcc0d4eb543c8c84599a2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Miki/Miki Winter Coat/Miki_A_Coat_Closed_Frown.png using Guid(28b2614002fcc0d4eb543c8c84599a2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad81ca7adaeb8f656e36711706cbd17c') in 0.120359 seconds 
+  Import took 0.127547 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000557 seconds.
+  path: Assets/Resources/Miki/Miki Winter Coat/Miki_A_Coat_Open.png
+  artifactKey: Guid(19e7d4acfc6d6e74b80e99d804328a52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Miki/Miki Winter Coat/Miki_A_Coat_Open.png using Guid(19e7d4acfc6d6e74b80e99d804328a52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1de38d9bfafc4e8b70bc81cc519b9ecf') in 0.082564 seconds 
+  Import took 0.087852 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000393 seconds.
+  path: Assets/Resources/Miki/Miki Winter Coat/Miki_A_Coat_Frown_Blush.png
+  artifactKey: Guid(ef009793f77e1a04caaeae1c9f14c741) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Miki/Miki Winter Coat/Miki_A_Coat_Frown_Blush.png using Guid(ef009793f77e1a04caaeae1c9f14c741) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1532f2dc63c6b2fc3b60a9a6d1580add') in 0.141953 seconds 
+  Import took 0.708309 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.012938 seconds.
+  path: Assets/Resources/Miki/Miki Winter Coat/Miki_A_Coat_Closed_Open.png
+  artifactKey: Guid(80055106ff362964ca86f8e758a40b0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Miki/Miki Winter Coat/Miki_A_Coat_Closed_Open.png using Guid(80055106ff362964ca86f8e758a40b0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b980b0a8b1ffcfc492b5c8db2c5e11d') in 0.077382 seconds 
+  Import took 0.233157 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000871 seconds.
+  path: Assets/Resources/Miki/Miki Winter Coat/Miki_A_Coat_Frown.png
+  artifactKey: Guid(e9ef87b085205ea4ba1d6ed83c5b8d63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Miki/Miki Winter Coat/Miki_A_Coat_Frown.png using Guid(e9ef87b085205ea4ba1d6ed83c5b8d63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '744c73fc1f186fb0685929bc11e238a4') in 0.093908 seconds 
+  Import took 0.099986 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000378 seconds.
+  path: Assets/Resources/Miki/Miki Winter Coat/Miki_A_Coat_Smile.png
+  artifactKey: Guid(6624c408a8a209346b0b58641b5f8db6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Miki/Miki Winter Coat/Miki_A_Coat_Smile.png using Guid(6624c408a8a209346b0b58641b5f8db6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f45dadcfb240cce5eb2fff74dc879e69') in 0.033832 seconds 
+  Import took 0.043024 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000678 seconds.
+  path: Assets/Resources/Miki/Miki Winter Coat/Miki_A_Coat_Smile_Blush.png
+  artifactKey: Guid(95e6ec69a5b4f91409f9dbe68445adf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Miki/Miki Winter Coat/Miki_A_Coat_Smile_Blush.png using Guid(95e6ec69a5b4f91409f9dbe68445adf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d0b6709a1126c06329d9828a5bd747f') in 0.041281 seconds 
+  Import took 0.048630 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000599 seconds.
+  path: Assets/Resources/Miki/Miki Winter Coat/Miki_A_Coat_Closed_Frown_Blush.png
+  artifactKey: Guid(5879d7a02f79962478187a31026577fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Miki/Miki Winter Coat/Miki_A_Coat_Closed_Frown_Blush.png using Guid(5879d7a02f79962478187a31026577fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c486707590eb4becb5ca72d1d50aa5de') in 0.038026 seconds 
+  Import took 0.044936 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000376 seconds.
+  path: Assets/Resources/Miki/Miki Winter Coat/Miki_A_Coat_Closed_Smile.png
+  artifactKey: Guid(867968feaab4fc64a8f376cc02b803bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Miki/Miki Winter Coat/Miki_A_Coat_Closed_Smile.png using Guid(867968feaab4fc64a8f376cc02b803bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d3e53801d9a113f9d187b742f94f651') in 0.950797 seconds 
+  Import took 0.975476 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.772303 seconds.
+  path: Assets/Resources/Miki/Miki Miko
+  artifactKey: Guid(e95ee7b1fd2e0824e9798fd0c3732afe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Miki/Miki Miko using Guid(e95ee7b1fd2e0824e9798fd0c3732afe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f14c2c1b159f20b4ca5eed6e3d8f3a3') in 0.006783 seconds 
+  Import took 0.013275 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.898062 seconds.
+  path: Assets/Resources/Miki/Miki Miko/Miki_A_Miko_Closed_frown.png
+  artifactKey: Guid(6f5c719d376550d419d1cfd330a5388a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Miki/Miki Miko/Miki_A_Miko_Closed_frown.png using Guid(6f5c719d376550d419d1cfd330a5388a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b62f7d7dbcbdd49f8bee6377c8dfd5f2') in 0.015788 seconds 
+  Import took 0.019123 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000408 seconds.
+  path: Assets/Resources/Miki/Miki Miko/Miki_A_Miko_frown_Blush.png
+  artifactKey: Guid(2020c8c1eeceb2d4ca5436c87b4a7b2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Miki/Miki Miko/Miki_A_Miko_frown_Blush.png using Guid(2020c8c1eeceb2d4ca5436c87b4a7b2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57e0e91cf2c3d3903b4584b510a9c5bd') in 0.012735 seconds 
+  Import took 0.016861 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000428 seconds.
+  path: Assets/Resources/Miki/Miki Miko/Miki_A_Miko_Smile.png
+  artifactKey: Guid(ff0bcae036255e04f8c230c8eeccefb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Miki/Miki Miko/Miki_A_Miko_Smile.png using Guid(ff0bcae036255e04f8c230c8eeccefb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7098ea6b65c11e64b14e23f86aeb9f83') in 0.013076 seconds 
+  Import took 0.022367 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000428 seconds.
+  path: Assets/Resources/Miki/Miki Miko/Miki_A_Miko_Smile_Blush.png
+  artifactKey: Guid(3430bc9f5d4fe484cab59384982470e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Miki/Miki Miko/Miki_A_Miko_Smile_Blush.png using Guid(3430bc9f5d4fe484cab59384982470e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f3992bccbe37174699e9bdf22b52269') in 0.025115 seconds 
+  Import took 0.032115 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000527 seconds.
+  path: Assets/Resources/Miki/Miki Miko/Miki_A_Miko_Open.png
+  artifactKey: Guid(e6db3fe510f4c1642954a4d9736d27a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Miki/Miki Miko/Miki_A_Miko_Open.png using Guid(e6db3fe510f4c1642954a4d9736d27a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b40f4472a6ab8ee30a8d8a71a84098ac') in 0.022217 seconds 
+  Import took 0.029046 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000491 seconds.
+  path: Assets/Resources/Miki/Miki Miko/Miki_A_Miko_Open_Blush.png
+  artifactKey: Guid(fc4d6122e981cb443813ea121d5f114c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Miki/Miki Miko/Miki_A_Miko_Open_Blush.png using Guid(fc4d6122e981cb443813ea121d5f114c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0bd35730be28ee2069bbb8276f9d0002') in 0.030668 seconds 
+  Import took 0.037503 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000508 seconds.
+  path: Assets/Resources/Miki/Miki Miko/Miki_A_Miko_Closed_Frown_Blush.png
+  artifactKey: Guid(365355016c311984aa3fad289965d3c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Miki/Miki Miko/Miki_A_Miko_Closed_Frown_Blush.png using Guid(365355016c311984aa3fad289965d3c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd78c55668ce689eafdbe7326eeb95da') in 0.023514 seconds 
+  Import took 0.030661 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000466 seconds.
+  path: Assets/Resources/Miki/Miki Miko/Miki_A_Miko_frown.png
+  artifactKey: Guid(f1133416c78dfb248a21cd0aad68c1a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Miki/Miki Miko/Miki_A_Miko_frown.png using Guid(f1133416c78dfb248a21cd0aad68c1a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6fdad6049bd915e66f9ab493d99074ae') in 0.022353 seconds 
+  Import took 0.029346 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000548 seconds.
+  path: Assets/Resources/Miki/Miki Miko/Miki_A_Miko_Closed_Open.png
+  artifactKey: Guid(0f7fdf1601d7a5e4bb9ff7248e4268ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Miki/Miki Miko/Miki_A_Miko_Closed_Open.png using Guid(0f7fdf1601d7a5e4bb9ff7248e4268ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '016112e092c3352a54e376dbbb82a5e6') in 0.022576 seconds 
+  Import took 0.031447 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000515 seconds.
+  path: Assets/Resources/Miki/Miki Miko/Miki_A_Miko_Closed_Open_Blush.png
+  artifactKey: Guid(2d776afb9aaa47441ba66c7800efb877) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Miki/Miki Miko/Miki_A_Miko_Closed_Open_Blush.png using Guid(2d776afb9aaa47441ba66c7800efb877) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6669a4f4b574b16fe5bb6bfae533f6d4') in 0.025942 seconds 
+  Import took 0.032787 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000438 seconds.
+  path: Assets/Resources/Miki/Miki Miko/Miki_A_Miko_Closed_Smile.png
+  artifactKey: Guid(d6ad943d3e2c2c446ae796e55fc576e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Miki/Miki Miko/Miki_A_Miko_Closed_Smile.png using Guid(d6ad943d3e2c2c446ae796e55fc576e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6fafad6483450fe7fe00700c6d33e519') in 0.020740 seconds 
+  Import took 0.033722 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000424 seconds.
+  path: Assets/Resources/Miki/Miki Miko/Miki_A_Miko_Closed_Smile_Blush.png
+  artifactKey: Guid(02d12822ef3b56844bb4c4e0efdae83c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Miki/Miki Miko/Miki_A_Miko_Closed_Smile_Blush.png using Guid(02d12822ef3b56844bb4c4e0efdae83c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb4444dab01f5221ce41634c45c4faa0') in 0.025314 seconds 
+  Import took 0.036098 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 31.469910 seconds.
+  path: Assets/Resources/Miki/Miki Miko/Miki_A_Miko_Closed_Open.png
+  artifactKey: Guid(0f7fdf1601d7a5e4bb9ff7248e4268ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Miki/Miki Miko/Miki_A_Miko_Closed_Open.png using Guid(0f7fdf1601d7a5e4bb9ff7248e4268ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08411e56e6b2751cd79b524e4c56084a') in 0.043300 seconds 
+  Import took 0.048876 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000367 seconds.
+  path: Assets/Resources/Miki/Miki Miko/Miki_A_Miko_frown_Blush.png
+  artifactKey: Guid(2020c8c1eeceb2d4ca5436c87b4a7b2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Miki/Miki Miko/Miki_A_Miko_frown_Blush.png using Guid(2020c8c1eeceb2d4ca5436c87b4a7b2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62e171e9567b6453dfb34fc522765937') in 0.022962 seconds 
+  Import took 0.027747 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000350 seconds.
+  path: Assets/Resources/Miki/Miki Miko/Miki_A_Miko_Smile.png
+  artifactKey: Guid(ff0bcae036255e04f8c230c8eeccefb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Miki/Miki Miko/Miki_A_Miko_Smile.png using Guid(ff0bcae036255e04f8c230c8eeccefb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'beaf40b9597a23c2e226bb38eaba7e4e') in 0.026001 seconds 
+  Import took 0.032007 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000489 seconds.
+  path: Assets/Resources/Miki/Miki Miko/Miki_A_Miko_Closed_frown.png
+  artifactKey: Guid(6f5c719d376550d419d1cfd330a5388a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Miki/Miki Miko/Miki_A_Miko_Closed_frown.png using Guid(6f5c719d376550d419d1cfd330a5388a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32856b890c33a6ccfc2dcf3a814087b4') in 0.040270 seconds 
+  Import took 0.045017 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000503 seconds.
+  path: Assets/Resources/Miki/Miki Miko/Miki_A_Miko_Smile_Blush.png
+  artifactKey: Guid(3430bc9f5d4fe484cab59384982470e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Miki/Miki Miko/Miki_A_Miko_Smile_Blush.png using Guid(3430bc9f5d4fe484cab59384982470e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92ee79b0c87c89b6939e250eb94eecc8') in 0.046279 seconds 
+  Import took 0.052431 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000433 seconds.
+  path: Assets/Resources/Miki/Miki Miko/Miki_A_Miko_Open.png
+  artifactKey: Guid(e6db3fe510f4c1642954a4d9736d27a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Miki/Miki Miko/Miki_A_Miko_Open.png using Guid(e6db3fe510f4c1642954a4d9736d27a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6538d45e76cb7fdd44b4efbcf0f37145') in 0.041592 seconds 
+  Import took 0.046786 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000412 seconds.
+  path: Assets/Resources/Miki/Miki Miko/Miki_A_Miko_Open_Blush.png
+  artifactKey: Guid(fc4d6122e981cb443813ea121d5f114c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Miki/Miki Miko/Miki_A_Miko_Open_Blush.png using Guid(fc4d6122e981cb443813ea121d5f114c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9424daff6ac3cec89c3683cc46776c6c') in 0.045385 seconds 
+  Import took 0.057976 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001053 seconds.
+  path: Assets/Resources/Miki/Miki Miko/Miki_A_Miko_Closed_Frown_Blush.png
+  artifactKey: Guid(365355016c311984aa3fad289965d3c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Miki/Miki Miko/Miki_A_Miko_Closed_Frown_Blush.png using Guid(365355016c311984aa3fad289965d3c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '681945e8b72b670c68ef82a4ed1de767') in 0.034428 seconds 
+  Import took 0.038931 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000805 seconds.
+  path: Assets/Resources/Miki/Miki Miko/Miki_A_Miko_frown.png
+  artifactKey: Guid(f1133416c78dfb248a21cd0aad68c1a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Miki/Miki Miko/Miki_A_Miko_frown.png using Guid(f1133416c78dfb248a21cd0aad68c1a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0290587df1370e52f45efe52759ce1f') in 0.040245 seconds 
+  Import took 0.048895 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000503 seconds.
+  path: Assets/Resources/Miki/Miki Miko/Miki_A_Miko_Closed_Open_Blush.png
+  artifactKey: Guid(2d776afb9aaa47441ba66c7800efb877) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Miki/Miki Miko/Miki_A_Miko_Closed_Open_Blush.png using Guid(2d776afb9aaa47441ba66c7800efb877) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aab43ecd308f9f93a1ff48564de39858') in 0.027922 seconds 
+  Import took 0.041233 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001315 seconds.
+  path: Assets/Resources/Miki/Miki Miko/Miki_A_Miko_Closed_Smile.png
+  artifactKey: Guid(d6ad943d3e2c2c446ae796e55fc576e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Miki/Miki Miko/Miki_A_Miko_Closed_Smile.png using Guid(d6ad943d3e2c2c446ae796e55fc576e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5b1bdbb696d4ae42896b1efbbfe8f58') in 0.037426 seconds 
+  Import took 0.042556 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000807 seconds.
+  path: Assets/Resources/Miki/Miki Miko/Miki_A_Miko_Closed_Smile_Blush.png
+  artifactKey: Guid(02d12822ef3b56844bb4c4e0efdae83c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Miki/Miki Miko/Miki_A_Miko_Closed_Smile_Blush.png using Guid(02d12822ef3b56844bb4c4e0efdae83c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ef950be7cfa168c50beed3ae48798e9') in 0.035552 seconds 
+  Import took 0.041429 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 18.840678 seconds.
+  path: Assets/Resources/nathalia-ferraro-5.jpg
+  artifactKey: Guid(90c19184359e39b4db74820046bd407a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/nathalia-ferraro-5.jpg using Guid(90c19184359e39b4db74820046bd407a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '828e52900a8ae9ac09406ee53eb6c771') in 0.035422 seconds 
+  Import took 0.042068 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000580 seconds.
+  path: Assets/Resources/nathalia-ferraro-6.jpg
+  artifactKey: Guid(6c4758fbdcab8354aba51ac2625787b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/nathalia-ferraro-6.jpg using Guid(6c4758fbdcab8354aba51ac2625787b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c92585c5865a85ec3bc3bfbdaf7f436d') in 0.016424 seconds 
+  Import took 0.022004 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000360 seconds.
+  path: Assets/Resources/ReponseBox.jpg
+  artifactKey: Guid(9899e0f9e80ba4a4ca9024d1aebd7ced) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/ReponseBox.jpg using Guid(9899e0f9e80ba4a4ca9024d1aebd7ced) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '190504854e5ce2ad3569b20f00722f5f') in 0.017336 seconds 
+  Import took 0.023978 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 17.637476 seconds.
+  path: Assets/Resources/TextBox
+  artifactKey: Guid(66c262cf570617b4d84c80f98856edb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/TextBox using Guid(66c262cf570617b4d84c80f98856edb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ae3e8a991bf0f6976b8bf7dcb28db10') in 0.004289 seconds 
+  Import took 0.008181 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 20.043375 seconds.
+  path: Assets/Resources/TextBox/ReponseBox.jpg
+  artifactKey: Guid(9899e0f9e80ba4a4ca9024d1aebd7ced) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/TextBox/ReponseBox.jpg using Guid(9899e0f9e80ba4a4ca9024d1aebd7ced) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '415ba46a52060fabb18137f5e5a6b620') in 0.031633 seconds 
+  Import took 0.038123 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004971 seconds.
+  path: Assets/Resources/TextBox/nathalia-ferraro-5.jpg
+  artifactKey: Guid(90c19184359e39b4db74820046bd407a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/TextBox/nathalia-ferraro-5.jpg using Guid(90c19184359e39b4db74820046bd407a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d332cb4aa5f67e4e4378c6706284086') in 0.047510 seconds 
+  Import took 0.052811 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000419 seconds.
+  path: Assets/Resources/TextBox/nathalia-ferraro-6.jpg
+  artifactKey: Guid(6c4758fbdcab8354aba51ac2625787b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/TextBox/nathalia-ferraro-6.jpg using Guid(6c4758fbdcab8354aba51ac2625787b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3bb2b022aa103a7502f408e2c85e0ef2') in 0.031219 seconds 
+  Import took 0.035871 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 216.486841 seconds.
+  path: Assets/Resources/TextBox/NameBox.jpg
+  artifactKey: Guid(b125c25055f145d45b8b0f2fb457d0fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/TextBox/NameBox.jpg using Guid(b125c25055f145d45b8b0f2fb457d0fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed5de74646e28965dde1648c16219ce5') in 0.016799 seconds 
+  Import took 0.022321 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000404 seconds.
+  path: Assets/Resources/TextBox/TextBox.jpg
+  artifactKey: Guid(88a6e6f31be866544af9583ec53aac01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/TextBox/TextBox.jpg using Guid(88a6e6f31be866544af9583ec53aac01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '358f76610dda07278771c65558881565') in 0.012241 seconds 
+  Import took 0.016372 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000384 seconds.
+  path: Assets/Resources/TextBox/ReponseBox 1.jpg
+  artifactKey: Guid(12ebc43e5c7443842a9ee4b9e9e582fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/TextBox/ReponseBox 1.jpg using Guid(12ebc43e5c7443842a9ee4b9e9e582fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e25cba32e7a0dbfa6661b6ce36428a02') in 0.013716 seconds 
+  Import took 0.020234 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 29.749038 seconds.
+  path: Assets/Resources/TextBox/NameBox.jpg
+  artifactKey: Guid(b125c25055f145d45b8b0f2fb457d0fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/TextBox/NameBox.jpg using Guid(b125c25055f145d45b8b0f2fb457d0fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'caf67ca9c592b6bc43a141be212a6665') in 0.080553 seconds 
+  Import took 0.086334 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.138835 seconds.
+  path: Assets/Resources/TextBox/NameBox.jpg
+  artifactKey: Guid(b125c25055f145d45b8b0f2fb457d0fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/TextBox/NameBox.jpg using Guid(b125c25055f145d45b8b0f2fb457d0fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9d3567ec2c16994df05dab2c4d173ba') in 0.017162 seconds 
+  Import took 0.022253 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 20.845707 seconds.
+  path: Assets/Resources/TextBox/NameBox.jpg
+  artifactKey: Guid(b125c25055f145d45b8b0f2fb457d0fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/TextBox/NameBox.jpg using Guid(b125c25055f145d45b8b0f2fb457d0fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ddf905e56b484810059059b416204e8') in 0.017230 seconds 
+  Import took 0.021355 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 21.788050 seconds.
+  path: Assets/Resources/TextBox/NameBox.jpg
+  artifactKey: Guid(b125c25055f145d45b8b0f2fb457d0fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/TextBox/NameBox.jpg using Guid(b125c25055f145d45b8b0f2fb457d0fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e632e5ebf357573bdc179611f7ce76e0') in 0.023091 seconds 
+  Import took 0.027907 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 229.210271 seconds.
+  path: Assets/Resources/Miki/Miki Miko/Miki_A_Miko_Closed_Open.png
+  artifactKey: Guid(0f7fdf1601d7a5e4bb9ff7248e4268ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Miki/Miki Miko/Miki_A_Miko_Closed_Open.png using Guid(0f7fdf1601d7a5e4bb9ff7248e4268ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e2c10713e49523fffa0f6cfafabd60a') in 0.030561 seconds 
+  Import took 0.035571 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1165.967086 seconds.
+  path: Assets/Resources/TextBox/TextBox 1.jpg
+  artifactKey: Guid(eadb4947885b9db4181f5b417de7f2e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/TextBox/TextBox 1.jpg using Guid(eadb4947885b9db4181f5b417de7f2e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7dd745467728e1f4cbc54652c2207cd7') in 0.036681 seconds 
+  Import took 0.045069 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.876408 seconds.
+  path: Assets/Resources/TextBox/TextBox 1.jpg
+  artifactKey: Guid(eadb4947885b9db4181f5b417de7f2e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/TextBox/TextBox 1.jpg using Guid(eadb4947885b9db4181f5b417de7f2e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df54ffb163adfd7f50ad895ca3c05487') in 0.026428 seconds 
+  Import took 0.030832 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 133.602389 seconds.
+  path: Assets/Resources/TextBox/NameBox.jpg
+  artifactKey: Guid(b125c25055f145d45b8b0f2fb457d0fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/TextBox/NameBox.jpg using Guid(b125c25055f145d45b8b0f2fb457d0fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '953359db92b6c2c9d3bfec0b6e184e66') in 0.039347 seconds 
+  Import took 0.044360 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000473 seconds.
+  path: Assets/Resources/TextBox/ReponseBox.jpg
+  artifactKey: Guid(9899e0f9e80ba4a4ca9024d1aebd7ced) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/TextBox/ReponseBox.jpg using Guid(9899e0f9e80ba4a4ca9024d1aebd7ced) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9fabddc6d123324409167d4f79bffae') in 0.016186 seconds 
+  Import took 0.022811 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 33.881168 seconds.
+  path: Assets/Resources/TextBox/ReponseBox.jpg
+  artifactKey: Guid(9899e0f9e80ba4a4ca9024d1aebd7ced) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/TextBox/ReponseBox.jpg using Guid(9899e0f9e80ba4a4ca9024d1aebd7ced) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf80152562f20d92f27d18498684b367') in 0.022565 seconds 
+  Import took 0.027474 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.014373 seconds.
+  path: Assets/Resources/TextBox/NameBox.jpg
+  artifactKey: Guid(b125c25055f145d45b8b0f2fb457d0fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/TextBox/NameBox.jpg using Guid(b125c25055f145d45b8b0f2fb457d0fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e8b7e6d38a062496c5263e8de637bc7') in 0.028604 seconds 
+  Import took 0.034854 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2260.300070 seconds.
+  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Drop Shadow.mat
+  artifactKey: Guid(e73a58f6e2794ae7b1b7e50b7fb811b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Drop Shadow.mat using Guid(e73a58f6e2794ae7b1b7e50b7fb811b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca0d2861f60500f05bd29199894f7bb5') in 1.047929 seconds 
+  Import took 1.056332 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000400 seconds.
+  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Outline.mat
+  artifactKey: Guid(79459efec17a4d00a321bdcc27bbc385) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Outline.mat using Guid(79459efec17a4d00a321bdcc27bbc385) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6458e33adda5b2abc0ba34a71975d835') in 0.071378 seconds 
+  Import took 0.079838 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000651 seconds.
+  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset
+  artifactKey: Guid(2e498d1c8094910479dc3e1b768306a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset using Guid(2e498d1c8094910479dc3e1b768306a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8c2210586957436df79bf961aeff06e') in 0.216529 seconds 
+  Import took 0.225436 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000424 seconds.
+  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset
+  artifactKey: Guid(8f586378b4e144a9851e7b34d9b748ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset using Guid(8f586378b4e144a9851e7b34d9b748ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1280cc7be10b532b2897fc8654f95d3') in 0.088803 seconds 
+  Import took 0.093972 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 792.450108 seconds.
+  path: Assets/StatsDisplay.cs
+  artifactKey: Guid(b8be6b0724df87f46b856c61eee21588) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StatsDisplay.cs using Guid(b8be6b0724df87f46b856c61eee21588) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee433ba78b2817b79749877601bfcf7d') in 0.029805 seconds 
+  Import took 0.034328 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 31.584476 seconds.
+  path: Assets/TextMesh Pro
+  artifactKey: Guid(f54d1bd14bd3ca042bd867b519fee8cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro using Guid(f54d1bd14bd3ca042bd867b519fee8cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16b4cbde9565bf190136f1148817e1ea') in 0.005452 seconds 
+  Import took 0.008763 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.941609 seconds.
+  path: Assets/TextMesh Pro/Resources
+  artifactKey: Guid(243e06394e614e5d99fab26083b707fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Resources using Guid(243e06394e614e5d99fab26083b707fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0df7051f5b12f3f69d646d60f9166c36') in 0.005062 seconds 
+  Import took 0.009631 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.068996 seconds.
+  path: Assets/TextMesh Pro/Resources/TMP Settings.asset
+  artifactKey: Guid(3f5b5dff67a942289a9defa416b206f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Resources/TMP Settings.asset using Guid(3f5b5dff67a942289a9defa416b206f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80217e6c75f9d2e4957cbc8093faaf48') in 0.109728 seconds 
+  Import took 0.112600 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.278082 seconds.
+  path: Assets/Script
+  artifactKey: Guid(1fa59da97300b8941be793da258cf959) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Script using Guid(1fa59da97300b8941be793da258cf959) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '618d000677bda2829cf4a9b64b3d233d') in 0.009258 seconds 
+  Import took 0.015126 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.015368 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.66 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.142 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2150ms)
+		BeginReloadAssembly (743ms)
+			ExecutionOrderSort (1ms)
+			DisableScriptedObjects (53ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (1ms)
+			CreateAndSetChildDomain (440ms)
+		EndReloadAssembly (1314ms)
+			LoadAssemblies (177ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (447ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (58ms)
+			SetupLoadedEditorAssemblies (503ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (12ms)
+				SetLoadedEditorAssemblies (3ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (185ms)
+				ProcessInitializeOnLoadAttributes (279ms)
+				ProcessInitializeOnLoadMethodAttributes (13ms)
+				AfterProcessingInitializeOnLoad (10ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.52 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1499 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 72.9 MB.
+System memory in use after: 73.0 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2016.
+Total: 3.679100 ms (FindLiveObjects: 0.146700 ms CreateObjectMapping: 0.055800 ms MarkObjects: 3.419400 ms  DeleteObjects: 0.055900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 43.033726 seconds.
+  path: Assets/Police Text
+  artifactKey: Guid(4843c6185462a3143970cf410b89d583) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Police Text using Guid(4843c6185462a3143970cf410b89d583) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d6235af619610cfaf983a79d34e9674') in 0.007611 seconds 
+  Import took 0.011272 seconds .
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
